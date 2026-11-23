@@ -1,0 +1,409 @@
+body{
+    background-color: whitesmoke;
+    color: black;
+}
+.dark-mode{
+    background-color: black;
+    color: white;
+}
+button{
+    border-radius: 10px;
+    border: 2px solid black;
+    color:black;
+}
+
+header{
+    color: black;
+    background-image: linear-gradient(to top right,grey,lightgrey);
+}
+
+h1{
+    color: black;
+}
+h4{
+    color: black;
+}
+.h2{
+    border-bottom: 3px solid red;
+}
+hr{ 
+    align-items: center;
+    color: red;
+    width: 100%;
+    height: 5%;
+}
+.text-muted{
+    border: 3px;
+    border-bottom: 3px solid red;
+}
+nav{
+    margin-left: 750px;
+    margin-top: -50px;
+    background-color: white;
+    border: 1px solid bisque;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+a{
+    color: black;
+    text-decoration: none;
+    transition: 0.3s;
+}
+a:hover{
+  color: red;
+  transform: scale(1.04);
+}
+.lead{
+    color: black;
+}
+{
+    background-color: whitesmoke;
+    padding-bottom: 350px;
+}
+.plan{
+    color: black;
+}
+
+.logo{
+    width: 100px;
+    height: 50px;
+    margin-top: -13px;
+}
+
+.feature-card{
+   
+    border-left: 6px solid red;
+    border-right: 3px solid black;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+     
+}
+.feature-card:hover {
+    background-color: lightgrey;
+    transform: translateY(-10px);
+    box-shadow: 0px 20px 50px;
+
+}
+
+.trans{
+    background-color: lightslategrey;
+    height: 200px;
+    width: 100px;
+    transition: width 2s;
+
+}
+.trans:hover {
+    width: 400px;
+    height: 100px;
+}
+footer{
+    color: white;
+    background-image: linear-gradient(to top right,grey,lightgrey);
+}
+.res1{
+    border: 5px solid black;
+    border-radius: 20px;
+    background-color: lightcyan;
+    width: 500px;
+    text-align: center;
+    padding-top: 20px;
+    margin-left: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+.res2{
+    border: 5px solid black;
+    border-radius: 20px;
+    background-color: lightcyan;
+    width: 500px;
+    text-align: center;
+    padding-top: 80px;
+    margin-left: 650px;
+    margin-top: -1030px;
+    padding-bottom: ;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.res3{
+    border: 5px solid black;
+    border-radius: 20px;
+    background-color: lightcyan;
+    width: 500px;
+    text-align: center;
+    padding-top: 40px;
+    margin-left: 650px;
+    padding-bottom: ;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.resbig{
+    text-align: center;
+}
+
+.container-1{
+    margin-bottom: 100px;
+    margin-left: 100px;
+    width: 500px;
+    height: 100%;
+    border: 3px solid black;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 5px 10px 50px;
+}
+.container-2{
+    margin-top: -590px;
+   
+    margin-left: 700px;
+    width: 500px;
+    height: 100%;
+    border: 3px solid black;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 5px 10px 50px;
+}
+.form-title{
+     background-image: linear-gradient(to top right, cyan,lightcyan);
+     border-radius: 10px;
+     width: 100%;
+}
+
+.button2, .button1{
+    color: white;
+    width: 150px;
+    border-radius: 15px;
+    border: 3px solid white;
+    background-color: black;
+}
+.hr2{
+    color: black;
+}
+.img{
+    box-shadow: 5px 5px 50px; 
+}
+.gal1{
+    margin-left: 50px;
+    box-shadow: 5px 5px 50px;
+    border: 3px solid; 
+    border-radius: 20px;
+    width: 300px;
+    height: 600px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    background-image: linear-gradient(to top,black,lightgrey);
+    text-align: center;
+    color: white;
+    transition: 0.3s;
+}
+.gal2{
+    margin-left: 460px;
+    margin-top: -600px;
+    box-shadow: 5px 5px 50px;
+    border: 3px solid; 
+    border-radius: 20px;
+    width: 300px;
+    height: 500px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: -10px;
+    background-image: linear-gradient(to top,black,lightgrey);
+    text-align: center;
+    color: white;
+    transition: 0.3s;
+}
+.gal3{
+    margin-left: 860px;
+    margin-top: -500px;
+    box-shadow: 5px 5px 50px;
+    border: 3px solid; 
+    border-radius: 20px;
+    width: 300px;
+    height: 510px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    background-image: linear-gradient(to top,black,lightgrey);
+    text-align: center;
+    color: white;
+    transition: 0.3s;
+}
+.gal4{
+    margin-top: 150px;
+    margin-left: 50px;
+    box-shadow: 5px 5px 50px;
+    border: 3px solid; 
+    border-radius: 20px;
+    width: 300px;
+    height: 500px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: -10px;
+    background-image: linear-gradient(to top,black,lightgrey);
+    text-align: center;
+    color: white;
+    transition: 0.3s;
+}
+.gal5{
+    margin-left: 460px;
+    margin-top: -490px;
+    
+    border: 3px solid; 
+    border-radius: 20px;
+    width: 300px;
+    height: 450px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: -10px;
+    background-image: linear-gradient(to top,black,lightgrey);
+    text-align: center;
+    color: white;
+    transition: 0.3s;
+}
+.gal6{
+    margin-left: 860px;
+    margin-top: -450px;
+    border: 3px solid;
+    border-radius: 20px;
+    width: 300px;
+    height: 290px;
+    box-shadow: 5px 5px 50%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: -10px;
+    background-image: linear-gradient(to top,black,lightgrey);
+    text-align: center;
+    color: white;
+    transition: 0.3s;
+}
+.gal7{
+    margin-left: 860px;
+    margin-top: px;
+    border: 3px solid;
+    border-radius: 20px;
+    width: 300px;
+    height: 290px;
+    box-shadow: 5px 5px 50%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: -10px;
+    background-image: linear-gradient(to top,black,lightgrey);
+    text-align: center;
+    color: white;
+    transition: 0.3s;
+}
+
+.gal1:hover {
+    transform: scale(1.10);
+}
+
+.gal2:hover {
+    transform: scale(1.10);
+}
+
+.gal3:hover {
+    transform: scale(1.10);
+}
+
+.gal4:hover {
+    transform: scale(1.10);
+}
+
+.gal5:hover {
+    transform: scale(1.10);
+}
+
+.gal6:hover {
+    transform: scale(1.10);
+}
+.gal7:hover {
+    transform: scale(1.10);
+}
+
+@media (max-width: 768px) {
+
+    .culture-card,
+    .activity-card {
+        width: 100%;
+    }
+    .res3{
+        text-align: center;
+        width: 100%;
+        margin: 0px;
+    }
+    section {
+        padding: 40px 5%;
+    }
+
+    section h2 {
+        font-size: 26px;
+    }
+  .nav-bar{
+    margin: 0px;
+  }
+  button{
+    margin-left: 100px;
+  }
+.gal1{
+    margin: 0;
+}
+.gal2{
+    margin: 0;
+}
+.gal3{
+    margin: 0;
+
+}
+.gal4{
+   margin: 0;
+
+}
+.gal5{
+   margin: 0;
+
+}
+.gal6{
+   margin: 0;
+}
+.gal7{
+    margin: 0;
+}
+.container-1{
+    margin: 0px;
+    width: 100%;
+}
+
+.container-2{
+    margin: 0px;
+    width: 100%;
+}
+.button1{
+   margin-right: 100px; 
+}
+.button2{
+   margin-right: 100px; 
+}
+.res1{
+    width: 100%;
+    margin: 0px;
+}
+.res2{
+    width: 100%;
+    margin: 0px;
+}
+.container{
+    text-align: center;
+}
+}
